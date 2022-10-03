@@ -321,8 +321,8 @@ img {
   cursor: pointer;
 }
 
-.icon-cross{
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.icon-cross {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-cross:hover,
@@ -350,7 +350,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-window-header {
-margin-top: 0;
+  margin-top: 0;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -441,8 +441,8 @@ margin-top: 0;
 }
 
 .icon-check {
-opacity: 0;
-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input-checkbox:checked + .icon-agreement .icon-uncheck {
@@ -455,8 +455,9 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input-checkbox:checked + .icon-agreement .icon-check {
-  opacity: 1; }
- 
+  opacity: 1;
+}
+
 .checkbox-link {
   color: var(--azure-color);
   text-decoration: underline;
@@ -1020,4 +1021,3 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0;
   padding: 0;
 }
-
